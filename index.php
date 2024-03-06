@@ -266,7 +266,7 @@ if ($response1 !== false) {
                 <h5 class="font-family-Roboto-Medium titulo">
                     Te puede interesar
                 </h5>
-                <span class="sub-title">Ver más</span>
+                <a href="./tienda.php" class="sub-title">Ver más</a>
             </div>
         </div>
         <div class="interest-card-container">

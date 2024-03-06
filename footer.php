@@ -186,7 +186,7 @@ function conocemas(category){
             typep ='2';
             mov = 'comprar';
          } 
-        var url = "teinda_copy.php?page=1&category="+category+"&typep="+typep+"&"+mov;  
+        var url = "tienda.php?page=1&category="+category+"&typep="+typep+"&"+mov;  
         window.location.href = url;
        }
     });

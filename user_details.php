@@ -512,7 +512,7 @@
     return urlParams.get(name);
   }
   var tab = getQueryParam('tab');
-  console.log("tab", tab);
+  
   function setActiveClass(tabName) {
     return tab === tabName ? "nav-link active" : "nav-link";
   }

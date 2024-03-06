@@ -2,7 +2,7 @@
 
 <div class="navbar navbar-light bg-maquinatrix navbar-expand-md">
     <div class="container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="./index.php">
             <img src="./assets/img/logo.svg" alt="logo">
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">☰</button>

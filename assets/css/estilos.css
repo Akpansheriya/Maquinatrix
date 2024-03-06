@@ -454,6 +454,10 @@ color: #000000;
   border-radius: 21px;
   background: transparent;
 }
+.Discover .container .right-box .Discover-btn:hover{
+  border: 0;
+  background: #fff;
+}
 .Discover .row-class {
   width: 100% !important;
   margin-left: 0px !important;
@@ -474,6 +478,7 @@ color: #000000;
   letter-spacing: 0px;
   color: #0070e0;
   opacity: 1;
+  text-decoration: none;
 }
 .interest .container .interest-card-container {
   display: flex;
