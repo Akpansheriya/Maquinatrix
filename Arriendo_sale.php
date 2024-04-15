@@ -170,6 +170,11 @@
         galleryIcon.appendChild(galleryIconImg);
 
 
+        const bottomStrip = document.createElement('div');
+        bottomStrip.classList.add('bottom-strip');
+        const pTag = document.createElement('p');
+pTag.textContent = 'Imagen de portada';
+bottomStrip.appendChild(pTag);
         heartIcon.addEventListener('click', function () {
           imgContainer.remove();
         });
@@ -177,7 +182,7 @@
         imgContainer.appendChild(imgElement);
         imgContainer.appendChild(heartIcon);
         imgContainer.appendChild(galleryIcon);
-
+        imgContainer.appendChild(bottomStrip);
         imageContainer.insertBefore(imgContainer, imageContainer.firstChild);
       };
 

@@ -1,7 +1,7 @@
 <?php include 'header.php' ?>
 
 
-<div class="modal maq_service_modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal maq_service_modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-target="#staticBackdrop">
     <div class="modal-dialog modal-dialog-centered  modal-lg">
         <div class="modal-content">
             <div class="modal-header">
@@ -52,8 +52,8 @@ opacity: 1;">
             </div>
         </div>
     </div> 
-
-
+   
+</div>
 
     <script>
 function redirectToServices() {

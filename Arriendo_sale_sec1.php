@@ -23,23 +23,31 @@
             <div class="row">
               <div class="col-sm-6 col-md-6 col-lg-6">
                 <div class="mb-3">
-                  <select required>
-                    <option value="" selected disabled hidden>Seleccionar industria*</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
+                <select id="normalize">
+  <option value=""></option>
+  <option value="1">Awesome</option>
+  <option value="2">Beast</option>
+  <option value="3">Compatible</option>
+  <option value="4">Thomas Edison</option>
+  <option value="5">Nikola</option>
+  <option value="6">Selectize</option>
+  <option value="7">Javascript</option>
+</select>
 
                 </div>
               </div>
               <div class="col-sm-6 col-md-6 col-lg-6">
                 <div class="mb-3">
-                  <select required>
-                    <option value="" selected disabled hidden>Tipo de máquina*</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
+                <select id="normalize2">
+  <option value=""></option>
+  <option value="1">Awesome</option>
+  <option value="2">Beast</option>
+  <option value="3">Compatible</option>
+  <option value="4">Thomas Edison</option>
+  <option value="5">Nikola</option>
+  <option value="6">Selectize</option>
+  <option value="7">Javascript</option>
+</select>
 
                 </div>
               </div>
@@ -61,3 +69,8 @@
           </div>
           
         </div>
+
+        <script>
+          $('#normalize').selectize({ normalize: true });
+          $('#normalize2').selectize({ normalize: true });
+        </script>

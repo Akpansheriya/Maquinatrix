@@ -1,6 +1,6 @@
 <?php include 'header.php' ?>
 <?php include 'menu.php' ?>
-<?php 
+<!-- <?php 
 
     $baseUrl = getenv('URL_API');
     $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http'; 
@@ -47,7 +47,7 @@
         echo 'Error al realizar la solicitud a la API';
     }
       }  
-       ?>
+       ?> -->
        <section class="bg-carrucel mb-5">
     <div class="container">
         <div class="row">
